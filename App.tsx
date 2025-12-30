@@ -1,5 +1,6 @@
 
 import React, { useState } from 'react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import { AppStep, LectureData } from './types.ts';
 import { transcribeAudio, formatTranscription } from './services/geminiService.ts';
 import StepUpload from './components/StepUpload.tsx';
@@ -176,6 +177,7 @@ const App: React.FC = () => {
            </div>
         </div>
       </footer>
+      <SpeedInsights />
     </div>
   );
 };
