@@ -1,0 +1,5 @@
+{
+  "name": "Lecture Transcriber",
+  "description": "A powerful tool to transcribe, format, and convert lectures into PDF documents using Gemini AI, preserving the original dialect and content.",
+  "requestFramePermissions": []
+}
